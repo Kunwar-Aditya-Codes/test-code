@@ -30,7 +30,7 @@ const Camera = () => {
         screenshotFormat='image/jpeg'
         videoConstraints={{
           facingMode: {
-            exact: 'user',
+            exact: 'environment',
             // user - for front camera
             // environment - for back camera
           },
